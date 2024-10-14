@@ -6,7 +6,7 @@ import { UserProvider } from './context/userContext.jsx'
 import {ChatProvider} from './context/chatContext.jsx'
 import { AdminProvider } from './context/adminContext.jsx'
 
-export const server = "http://localhost:8000"
+export const server = "https://talksense-chatbot.onrender.com"
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
